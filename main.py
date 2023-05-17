@@ -2,6 +2,7 @@ from sklearn.datasets import make_blobs
 import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
+# http://www.sthda.com/english/wiki/wiki.php?id_contents=7932
 
 # Se genera un conjunto de datos de prueba con 4 clusters. Se le indica al computador que detecte el numero de grupos usando el metodo del coeficiente de silueta, con un valor maximo de 10 clusters.
 
